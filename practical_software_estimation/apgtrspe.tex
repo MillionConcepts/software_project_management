@@ -127,7 +127,6 @@ This text draws heavily on prior literature related to software project manageme
 \newpage
 \addcontentsline{toc}{section}{notes and limitations}
 \section*{notes and limitations}
-\label{scrivauto:8}
 
 I will make reference to methods of research funding or support that only apply to academic researchers based in the United States and funded by the U.S. Federal Government via agencies like NSF, DOE, and NASA. I won't specifically note these as assumptions, because I don't know enough about funding approaches around the world to know when the U.S. system is different enough to matter. Furthermore, the vast majority of my personal experience is with projects funded through NASA, so some of my observations may be particular to the culture or procedures of that agency. For context, the types of grants that fund many researchers in this domain are called Research and Analysis (R\&A) grants; these are PI-led projects that typically have three-year terms to support a focused, hypothesis-driven investigation by a small team. In the areas of research that I have experience, there is no real opportunity to receive substantial funding from industry or other NGOs, so I've given that no consideration. If I say something that sounds like it doesn't apply to your situation, it probably doesn't, and I hope that there is enough else in here for the effort of reading this to be worthwhile for you.
 
@@ -138,7 +137,6 @@ I've written this text with my own employees and mentees in mind. If I had stude
 \newpage
 \addcontentsline{toc}{section}{what is an estimate?}
 \section*{what is an estimate?}
-\label{scrivauto:9}
 
 Many people think that the main point of an estimate is to figure out how long something will take. Inexperienced managers or PIs who ask for estimates often think that this is what they want. Unfortunately, anyone who wants to know how long a research project will take will almost certainly be disappointed. This \emph{expectation value} is one of the most difficult things to estimate---and, in my opinion, one of the least useful. Accurate estimates---within perhaps 30\%---are extremely difficult even for expert estimators in fields like business development that often produce mountains of historical data on which to base their calculations.\footnote{And management processes and controls to constrain project costs, etc. Because it's always possible to spend more than your estimate, and you need good, active management to keep the project on track, even if the estimate is ``perfect.''} The pursuit of an accurate estimate for an original research project is foolhardy.
 
@@ -177,7 +175,6 @@ Here is a complete summary of the project estimation method covered in this docu
 \newpage
 \addcontentsline{toc}{section}{convenient properties of research software}
 \section*{convenient properties of research software}
-\label{scrivauto:11}
 
 Research software projects have several properties that help constrain the range of project management and estimation strategies that can and should be brought to bear. These include:\
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt, font=\bfseries]
@@ -191,7 +188,6 @@ Research software projects have several properties that help constrain the range
 
 \newpage
 \subsection*{a note on project roles}
-\label{scrivauto:12}
 
 If you have an engineering background, you might reflexively cry foul that my descriptions ``confuse'' a number of standard engineering project roles. You might---as one early reader was---be nonplussed because requirements elicitation is the job of the systems engineer and estimation and planning is the job of a project manager. The fact is that on small grant-funded research projects (or sub-projects within large projects) these roles are rarely distinct. It is common for a single person to be responsible for both project management and systems engineering. You may find yourself in this position if you are a project PI or a graduate student working on your thesis project. It is also common for these roles to be shared among investigators, and for responsibilities to change over time or by circumstance. Even when you share these responsibilities with your colleagues, the smallness of the project and team will often make it possible for you to act more or less as one.
 
@@ -201,13 +197,11 @@ However, the productive tension that naturally arises between these roles when t
 
 \addcontentsline{toc}{chapter}{the path to an estimate}
 \chapter*{the path to an estimate}
-\label{scrivauto:13}
 
 \epigraph{During and after the Fall of the Establishment of Bureaucracy was the Aftermath, an Age of Disorder in which calculation, computations, and reckonings were put away by the Children of Eris in Acceptance and Preparation for the Return to Oblivion [{\dots}]}{The Principia Discordia}
 
 \addcontentsline{toc}{section}{step one: identify stakeholders}
 \section*{step one: identify stakeholders}
-\label{scrivauto:14}
 
 The fact that you know that a project must be undertaken means that you already have some idea about the nature, scope, and goals of the project. But you must consider it to be merely a hypothesis until it is validated against external reality. ``Reality'' includes the constraints under which the project must be done and the needs or ideas of people who will be impacted by it. A lot of the information that you need, therefore, probably exists in the minds of other people. The first thing that you must do is try to identify all of the people whose ideas must be considered in order for the project to be successful. Trivially, this includes the people who judge and therefore define project success: probably the project leadership (like the PI) and the immediate end users. But it often includes many others.\footnote{
 This process is remarkably similar to what is called ``customer discovery'' in the business / startup world. It is a process intended to maximize the chance that you are ``building the right thing'' which ``solves a real problem.'' Academics leverage that for papers; entrepreneurs leverage it for profits, or at least try to. So although it might sound strange in the context of a document about non-commercial research, I suggest that you read ``The Startup Owner's Manual'' by Steve Blank and Bob Dorf.}
@@ -246,7 +240,6 @@ It is not necessarily critical that all other stakeholders be closely involved i
 \newpage
 \addcontentsline{toc}{section}{step two: vision and scope}
 \section*{step two: vision and scope}
-\label{scrivauto:16}
 
 The Vision and Scope, or ``V\&S,'' is a brief statement---ideally fewer than five sentences---that clearly defines the project objectives and scope in plain language. These few sentences will be the baseline reference description of the project for all stakeholders. A well-written V\&S dramatically improves the odds that the project team has a shared understanding of the goals and objectives of the project. This is no small thing, as tremendous amounts of time and money can easily be wasted otherwise. I've seen many software projects fail or generate unnecessary suffering because the team was simply building the wrong thing from the beginning. You can head off a lot of trouble by taking time to get it right. It is important that everyone completely understand the V\&S, and that it leaves as little room for ambiguity and confusion as possible. You should avoid any acronyms or jargon that would not be immediately understandable to an advanced undergraduate in your field. A colleague with expertise in the general domain of study should be able to read the V\&S and accurately explain the project back with different words.\footnote{
 This is a very good thing to try early in proposal preparation. If your ``elevator pitch'' for the project is not coherent to your colleague who you know to have general domain knowledge, then it will probably also be lost on the anonymous reviewers.}
@@ -263,7 +256,6 @@ For very small, quick projects or sub-projects, the V\&S can be more informal. I
 \newpage
 \addcontentsline{toc}{section}{step three: concept of operations}
 \section*{step three: concept of operations}
-\label{scrivauto:18}
 
 Your next step is to create a ``Concept of Operations'' (ConOps) document. Quoting from TPMG: ``A ConOps document provides a mechanism for users to describe, in nontechnical terms, their views and expectations of the system and its required features and functionality. A complex system can have several different types and levels of users, all of whom have different perceptions and perspectives concerning the operations of the system. [{\ldots}] Clarifying and resolving vague and conflicting user needs or requirements should be a significant component of the concept analysis process.'' Furthermore: ``The ConOps describes the proposed system from the user's perspective and provides developers with a set of user requirements on which to base an analysis of the project's technical feasibility.''
 
@@ -296,12 +288,10 @@ Describe this information in plain prose, figures, direct quotes, etc. in a docu
 \newpage
 \addcontentsline{toc}{section}{step four: requirements specification}
 \section*{step four: requirements specification}
-\label{scrivauto:20}
 
 Whereas the ConOps describes the existing and desired system from the perspective of the end users, the Requirements Specification (ReqSpec), is a document for developers and project managers. There's a formal IEEE standard for this as well, and the usual shorthand is ``ReqSpec'' (pr. wreck-speck). Again, I'm going to gloss the idea a little bit. For our needs, a requirements specification is a document that outlines the list of verifiable conditions that must be met in order to achieve the V\&S and / or ConOps. These can sometimes be generated directly from the V\&S and the stakeholders' understanding of the problem and solution domains, but it is often helpful to translate the ConOps into concrete requirements.
 
 \subsection*{what are requirements?}
-\label{scrivauto:21}
 
 Requirements are clear descriptions of those things which are absolutely critical to the correct functioning of a desired system. A system which meets all of its requirements will do everything that is needed. To expand: the IEEE Std. 830-1998 specifies eight properties that ``a good [Software Requirements Specification]'' should contain. Any individual requirement should have the four following properties:
 
@@ -330,7 +320,6 @@ The requirements specification as a whole should also have the following global 
 \end{itemize}
 
 \subsection*{requirements vs. design decisions}
-\label{scrivauto:22}
 
 This is important: requirements are what a system must do, not what a system is. Avoid making decisions about how to meet requirements at this phase. Specifically, try not to pre-select specific technical solutions. Each of your requirements should solve a problem (i.e. do something) but not describe a solution (i.e. be something). For example, unless there are external factors imposing utilization of a particular programming language, then the particular programming language is not a requirement. If you start thinking of ``an image display'' rather than ``displays an image,'' you are probably encoding design decisions instead of requirements.
 
@@ -338,7 +327,6 @@ You should avoid making design decisions right now because you do not want to un
 
 
 \subsection*{ranking requirements}
-\label{scrivauto:23}
 
 I typically rank requirements on a scale from 1-4, where 1 is ``critical'' and 4 is ``nice to have.'' Anything rated below 4 should just be deleted from the list. Critical requirements are mandatory. Stretch requirements would probably make the end result better but are not mandatory. And nice-to-haves are other little bells and whistles that may or may not even be worthwhile. You define the rank based on your priority, which is to say the things that you value most. The most common thing that I prioritize is how critical a requirement is to achieving the minimum viable functionality (or minimum viable product) for the thing that I am trying to do. That is, I want to get to a prototype or thing-that-works as quickly as possible, so whichever requirements achieve that are rated highly. But maybe you want to get some specific research result as quickly as possible, so you prioritize requirements that do that. Or perhaps that you are working to a contract that specifies certain deliverables in a certain order; you will probably want to do them in that order (even if it doesn't make technical sense).\footnote{IEEE Std 830-1998 suggests ranking by ``necessity'' in three classes: essential, conditional, and optional.}
 
@@ -347,7 +335,6 @@ Having done that, just cross out the ``stretch'' and ``nice-to-have'' requiremen
 Ask stakeholders to sign off on your list of requirements and rankings. For projects with more than a small handful of stakeholders, I strongly advise against getting stakeholder's input during the requirements elicitation or ranking steps. Without implying malice, any random stakeholder's input at this stage is more likely to be distracting or self-interested than laser focused on achieving the V\&S. You will probably find yourself repeatedly needing to explain the difference between a requirement and a design decision. The requirements elicitation is best done by the developers and project managers.\footnote{If you have a ``client,'' then representatives of the client should also be involved in defining the requirements. But part of our running set of assumptions that this is a research software project is that the project managers are representatives of the clients, which is to say the people for whom the software is being developed.}
 
 \subsection*{common categories of requirements}
-\label{scrivauto:24}
 
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt, font=\bfseries]
 \item[Functionality.] This is perhaps the most fundamental category of requirement. What does the software need to do? Not just as a whole, but individual components. Does it need to display an image? Do the details of that display approach matter? Does it need to process data? What are the steps of processing?
@@ -379,12 +366,10 @@ Ask stakeholders to sign off on your list of requirements and rankings. For proj
 \end{itemize}
 
 \subsection*{validate}
-\label{scrivauto:25}
 
 Having made a list of requirements, you should go through some sort of validation exercise. You need to confirm that the list of requirements is, in fact, complete. Because the validity of your estimate and, indeed, entire project rests on the requirements, it's worth taking this extra effort. You can either review the requirements with the whole project team---which is probably the best option for most research efforts---or ask an independent person or group to come in to review them. The most important thing is that it's a conscious effort.
 
 \subsection*{example: escaping the Klingons}
-\label{scrivauto:26}
 
 There's a trope that you might recognize from many Star Trek episodes where the Federation starship is about to explode or be overrun by Borg or Klingons and the Captain calls down to the main engineer and asks how long it will take to disambiguate the aft polarization deflectors to send them into trans-warp{\ldots} or whatever{\ldots} and then the Chief Engineer responds that it will take 10 minutes. The Captain responds that they only have 5 minutes, so it has to be done in 5 minutes. And somehow, week after week, the engineering crew meets the revised-on-the-fly estimate, and, against all odds, the ship does not blow up.
 This trope illustrates two very bad project management practices:
@@ -426,19 +411,16 @@ By specifying that the technical solution is to achieve trans-warp{\ldots} or wh
 \newpage
 \addcontentsline{toc}{section}{step five: work breakdown structure}
 \section*{step five: work breakdown structure}
-\label{scrivauto:28}
 
 Now that you have your requirements, you are permitted to start thinking about solutions. The next project management artifact you will generate is a Work Breakdown Structure (WBS). It is a list of tasks and subtasks that, if completed, will meet all of your project requirements. The tasks and subtasks should each be small enough that you can conceive of accomplishing them. So you can also think of the WBS as a series of achievable goals that, combined, accomplish the overarching goal of your project as outlined in your Vision and Scope.
 
 \subsection*{establish an approach}
-\label{scrivauto:29}
 
 Given any specific set of requirements, it is very likely possible for you to conceive of multiple technical design approaches that could independently achieve the project objectives. You or other members of the project team probably already have some of these in mind; you probably had to fight the urge to let them influence the requirements elicitation process! Now it is time to discuss those possible approaches and pick one that ``seems best.''
 For this, start at a high level. If you were going to do the project right now, how would you go about it, generally speaking? Talk it through with the developers and (if appropriate) other stakeholders. Try to not get too much into the weeds on things. You are not trying to solve technical puzzles, but to establish an overall design approach. What will it look like? What are the major subcomponents? If there are multiple obvious routes to implementation, which one do you think is best (as of now)?
 I suggest that you should always give yourself a range of solutions or approaches to choose from, even if the first one that you thought of seems pretty good. Debate their relative merits among your developers and other stakeholders. This might take a while, but it can also be a lot of fun. If you quickly hash out 2-5 additional possible approaches, you might find a better one, or find a combination of approaches that itself forms a better approach, or you will at least be more confident that the approach you ended up going with was not the worst possible approach. Comparing solutions also forces you to articulate their costs and benefits. Pick your best idea, but keep a record of all of your other ideas too; they might be useful someday.
 
 \subsection*{generate a work breakdown structure}
-\label{scrivauto:30}
 
 Once you have agreed upon an approach, break it down into sub-projects and tasks. The line between ``sub-project'' and ``task'' is fuzzy, but can be useful for organizing the estimate and project as a whole. A sub-project'' is a project unto itself. Given well-defined inputs and outputs, it could be separated from the rest of the project and done independently. ``Tasks'' are components of projects that are distinct efforts but too interrelated with other tasks to be fully separable. Smaller projects might not contain any sub-projects. Larger projects may contain many.\footnote{
 Sometimes a task must be performed more than once—for instance, multiple instances of setup and execution for a simulation with a bunch of fiddly parameters. See Appendix A of this document for suggestions on how to handle this.} 
@@ -454,7 +436,6 @@ As a general guideline, 12-20 tasks is about the right number for most projects 
 Crucially---you'll want to double check your work on this---your list of tasks should be complete, in the sense that performing all of them will fulfill your project requirements. The Work Breakdown Structure then becomes a sort of project checklist. It can simultaneously be an input to your work plan and your project estimates.
 
 \subsection*{task categories to remember}
-\label{scrivauto:31}
 
 It's easy to remember the big things that you'll be doing for a project, but there are a bunch of smaller,  semi-invisible things that often add up to big fractions of projects but are easy to forget. Here are some examples. Some of these are drawn from DtBA and some are things that I have to remind myself to include (usually because I've messed it up in the past).
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt]
@@ -481,7 +462,6 @@ It's easy to remember the big things that you'll be doing for a project, but the
 \newpage
 \addcontentsline{toc}{section}{(optional) traceability matrices}
 \section*{(optional) traceability matrices}
-\label{scrivauto:33}
 
 Recall that every task in the WBS must exist in service to some requirement in the ReqSpec. Every task must support one or more requirements and every requirement must be met by the outputs of one or more tasks. This is the essential observation behind a Requirements Traceability Matrix (RTM). The RTM is a N$\times$M grid with all of the individual requirements along one side and all of the project tasks along another side. Each cell in the grid is marked according to whether the task contributes to filling a specific requirement. This makes for a quick visual reference of consistency and completeness of your tasks and requirements. It looks kind of like this:
 
@@ -515,12 +495,10 @@ Be aware that people sometimes---consciously or unconsciously---fudge their own 
 
 
 \subsection*{rate your confidence of initial estimates}
-\label{scrivauto:36}
 
 Next, look at each estimate you just made and assign it a confidence rating between 1.2 and 4. Use 1.2 for tasks that are very similar or identical to something you've done before, and for which you have little question about how to proceed successfully. Assign a 4 to tasks that are entirely novel. Don't bother using more precise fractions. Just use 1.2, 2, 3, and 4. The extra ``precision'' won't gain you anything.
 
 \subsubsection*{confidence ratings}
-\label{scrivauto:37}
 
 % make this a table instead?
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt, font=\bfseries]
@@ -547,22 +525,18 @@ If you are doing the estimation with a team, at some point, you're going to have
 And if one person assigns a 4 to a task---meaning that they don't have a clear idea about how they'd go about the work---and someone else assigns any lower number, then it should be resolvable to at least a 3 on the spot by having the second person explain it to the first one.}
 
 \subsection*{generate your estimate(s)}
-\label{scrivauto:38}
 
 You now have initial time estimates for all tasks and uncertainty factors associated with each of those. What you do with them at this point depends on the goals of your estimation process.
 
 \subsubsection*{what is the best case scenario?}
-\label{scrivauto:39}
 
 The sum of your initial estimates for all tasks (ignoring scale factors) is the estimate for how long the project would take if everything went exactly according to your expectations. We'll take this to be the best case scenario. It is the minimum required work effort necessary to do the project. As we discussed earlier, for most research software projects, the work effort will be the main driver of the total project cost. This means that you can take this best-case estimate, multiply it by the fully loaded salary costs of your team members, and get an estimate of the total amount of money required to do the project. If this is more money than you have or can ask for, then the project is probably not feasible. You should go back to the beginning and try to come up with a more efficiently-implementable solution, be less ambitious about scope, or maybe give up the idea altogether.
 
 \subsubsection*{how much money should I ask for?}
-\label{scrivauto:40}
 
 The sum of your initial estimates multiplied pairwise by their corresponding confidence factors is the Project Estimate. This is the amount of work effort that provides a good chance of project success, as long as nothing major was left out of the scoping and estimation process. Although it can feel sort of ethereal, this number is not a ``guess'' and it is not ``padded.'' You used an approach derived from well-tested best practices for software project estimation. Your number is reasonable and it should be sufficient. These are typical merit criteria for research proposals: that the requested resources are both ``reasonable'' and ``sufficient.'' So this is the number that you use as the basis of your proposal budget.
 
 \subsubsection*{how long is the project most likely to take?}
-\label{scrivauto:41}
 
 This is the question that most people think that they want to answer when they request an estimate. The estimate methodology just described does not yield a straightforward way to make this assessment. Even if it did, it would be so misleading as to be useless. Estimation methodologies intended to produce expectation values have a lot more inputs and also produce confidence intervals, which are often quite large ($>$30-50\%). But if you must have this for your own private purposes, I suggest you place it at about 75\% of the range of the numbers in A and B. So if your Best Case is 100 hours and your Project Estimate is 300 hours, you can place your expectation value around 250 hours. But, first, don't trust this number at all, because it has almost no basis in reality and is probably super wrong. And, second, you should probably never tell anybody this number, especially if you work for them or they control your funding, because they are as likely as not to take this as your actual estimate, incorrectly write off the Project Estimate as having been ``padded,'' and cut your support to 75\% of what you need to be confident of success. In fact, forget that I said anything. Go wash your hands.
 
@@ -574,10 +548,8 @@ This is the question that most people think that they want to answer when they r
 \newpage
 \addcontentsline{toc}{section}{apologia}
 \chapter*{apologia}
-\label{scrivauto:43}
 
 \section*{estimates are wrong}
-\label{scrivauto:44}
 
 Keep in mind that all estimates are wrong. When you make an estimate---especially at the outset of a project, or in the proposal phase---you are trying to figure out what it will take to solve some big problem or set of problems over months or years at the time when you have the least information about possible solutions and difficulties that you might encounter. This is almost futile! Even people who do it professionally and can draw upon mountains of data, including historical performance on similar projects, are not very good at it. Academics managing software projects incidental to their research should not expect to do better.
 
@@ -585,7 +557,6 @@ Also, estimates are not predictions. They're not supposed to be predictions. Eve
 
 
 \section*{an estimate is not a negotiation}
-\label{scrivauto:45}
 
 At some point you will encounter someone---maybe yourself---who wants to treat your estimate as the opening salvo of a negotiation. You might go through the whole process outlined above and find that you need 500 hours of work, but can only request support for 350 hours of work. Or when you tell your boss 500 hours, he might ask if you can do it in 250 instead. In cases like this, you may find yourself thinking that you can just work harder and make up the difference somehow. You might think it's better to close the deal or make your advisor happy and that you'll figure it out later.\footnote{
 A number of managers—especially in STEM fields—seem to have learned their management style from a particular science fiction universe that I have previously referenced for modeling particularly dysfunctional management workflows.}
@@ -595,7 +566,6 @@ Do not do this! Never negotiate an estimate. You'll be setting yourself and your
 As an alternative to rescoping, you can try to brainstorm new approaches, technical solutions, or designs which might propagate to lower estimates. But if broader changes to your approach are needed, then you should return to the ConOps phase and re-estimate the project as a whole. This is likely to feel like distracting non-work at a time when you might be under increased pressure to produce. The temptation to not reassess the project will be strong. But if there really is a large mismatch between your estimated resource needs and available resources, the project is probably at very high risk of failure, and that can only possibly be mitigated by a new approach. If you are lost in the woods, often the best thing to do is sit down and carefully re-assess the situation.
 
 \section*{the estimate is not the plan}
-\label{scrivauto:46}
 
 Specifically, the amount of budgeted work effort that we've just calculated is not the same as the amount of calendar time that it will take to complete the project from start to finish. If you need 4000 hours or 2 FTE for the project, that does not mean that one person can or should finish the project in two years of working flat out. There are many reasons for this. One is that a lot of project tasks will only be possible to complete in sequence, because outputs of one task are inputs to another. Another is that you might need to wait for inputs almost entirely external to your project---maybe call them ``bottlenecks''---like responses from colleagues or specific data to be collected by space telescopes or on field work. The upshot is that the work effort that we've calculated---or ``billable time,'' as I think of it---is almost always much smaller than the calendar time from project start to finish. We will discuss generating a plan from the estimate in the next section.
 
@@ -641,13 +611,8 @@ Obviously you can fiddle with this endlessly, and you should fiddle with it some
 \newpage
 \addcontentsline{toc}{chapter}{putting it into the proposal}
 \chapter*{putting it into the proposal}
-\label{scrivauto:49}
-
-\label{scrivauto:50}
 
 \epigraph{If you want to keep something secret, \\write it down!}{Dai Vernon}%\footnote{Dai Vernon aka The Professor was among the greatest performers, teachers, and philosophers of theatrical magic of the 20th century and certainly one of the most important magicians to ever live. I might not qualify it at all except that he shared part of the century with Houdini, who he famously fooled with a card trick. He was referring in this quote---which I've been told he often repeated with slight variations---to writing magic secrets in books, which many people are astonishingly reluctant to read. (When I do magic tricks for people, and they ask me how they are done, I sometimes offer them access to my library where the explanations for that and more can be found. Only one person has ever taken me up on the offer.) It's my experience that the sentiment applies equally well to software documentation and journal articles! Vernon also used to say, "Magicians stop thinking too soon." We could substitute many nouns.} \hfill \break
-
-\label{scrivauto:51}
 
 All of the hard work that you've done on project scoping, estimation, and planning will amount to very little if you cannot get the resources necessary to carry out the project. It will be much easier to convince people to trust your estimate and plan if they understand the method you used to generate them, and that this method has a legitimate basis and is not merely ``a guess.'' If you only need the assent of your boss or PI, then you will probably have the luxury of explaining the process to them, answering their questions, addressing their concerns, giving them a copy of this document, etc. But if you're writing a proposal, your job is harder. You must make your appeal to a handful of anonymous people, probably strangers, who are unlikely to have backgrounds in project management or systems engineering, who might not have much background in software development, and who are required to judge the merit of your request based on nothing more than the text and graphics that you've managed to cram into your page allotment. It has taken me nearly 20,000 words and 50 pages to explain the process, so what hope do you have?
 
@@ -663,13 +628,8 @@ This concludes the whirlwind overview of research software project estimation. K
 
 \addcontentsline{toc}{chapter}{bonafides of the author}
 \chapter*{bonafides of the author}
-\label{scrivauto:52}
-
-\label{scrivauto:53}
 
 \epigraph{So fare thee well, \\poor devil of a Sub-Sub [{\dots}]}{Moby-Dick; or, The Whale} \hfill \break
-
-\label{scrivauto:54}
 
 This whole thing is written in the first person, so I should probably introduce myself. You might also want a basis for deciding when to listen to me and when to ignore me. My name is Chase Million. I own a research, software, and consulting company called Million Concepts. I have nearly 20 years of experience writing software to support scientific research. This started as an undergraduate at Cornell University ca. 2003 working on the Pancam instrument team of the Mars Exploration Rovers, where I contributed to calibration and data analysis software tools (some of which are still in use today). My first job out of college was at Caltech, where I inherited the image processing pipeline for the Galaxy Evolution Explorer (GALEX), an all-sky ultraviolet survey telescope in low-Earth orbit.
 
@@ -683,9 +643,7 @@ I have no formal training in software development or project management and only
 \newpage
 \addcontentsline{toc}{chapter}{recommended reading}
 \chapter*{recommended reading}
-\label{scrivauto:55}
 
-\label{scrivauto:56}
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt]
 \item ``Software Estimation: Demystifying the Black Art'' (DtBA) by S. McConnell
 \item ``Software Estimation Without Guessing: Effective Planning in an Imperfect World'' (SEWG) by G. Dinwiddle
@@ -720,6 +678,7 @@ Other distributions that you might consider are:
 \begin{itemize}[wide, labelwidth=!, labelindent=0pt, font=\bfseries]
 \item[Gaussian:] Where the majority of the repetitions ($\approx{70}\%$) will take an average amount of time, and ($\approx{15}\%$) will take a small amount of time, and ($\approx{15}\%$) will take perhaps half as long and ($\approx{15}\%$) will take twice as long.
 \item[Decaying:] If you expect to get more efficient or faster at the task over time, or if there is an economy of scale, then you might model that with a downward trend. So that the first 20\% takes N hours and the second 20\% takes N/2 hours, etc., at whatever rate of decay you think is reasonable.
+\break
 \item[Increasing:] If each iteration will become more complex and therefore take more time. I can imagine this happening, for example, if this is a ``data validation'' or ``data cleaning'' task, and the total volume or sources of data is expected to be larger each time. Perhaps you are writing a calibration pipeline for a project that is actively collecting data, and you plan to completely reprocess the data annually with the latest version of the pipeline. While the software runtime itself should not necessarily be factored into your estimate (of ``billable hours''), the mere fact of increasing data volume over time most likely means that bookkeeping, process babysitting, validation, and data delivery will take longer each time.
 \item[Bi-modal or multi-modal:] Where known fractions will take specifically different amounts of time (in two or more bins). This particularly makes sense in a case where you have a task that repeats but some of those repetitions will have extra steps or complexities that themselves can be estimated, and you know the approximate fractions ahead of time. If you're not using continuous distributions anyway---which you shouldn't---then this is really just the general case option. (You could make it look like any distribution you wanted.)
 \end{itemize}
